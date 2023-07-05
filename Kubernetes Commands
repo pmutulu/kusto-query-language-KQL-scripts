@@ -1,15 +1,15 @@
-   17  az account set --subscription e3b5d32e-2049-415e-8f2b-d3fa009319d4
-   18  az aks get-credentials --resource-group PMM-RG --name PMMkubernetesCluster
-   19  kubectl get pods
-   20  az aks get-credentials --resource-group PPMM-RG --name PMMkubernetesCluster
-   21  kubectl get ports
-   22  kubectl get containers
-   23  kubectl get pods
-   24  kubectl --namespace=azure-vote
-   25  kubectl --namespace==azure-vote
-   26  kubectl config set-context --current --namespace=azure-vote
-   27  kubectl get pods
-   28  kubectl describe pod azure-vote-front-7f656596b7-ghq8m
-   29  kubectl get pods
-   30  kubectl describe pod azure-vote-front-7f656596b7-ghq8m
-   31  kubectl exec -it azure-vote-front-7f656596b7-ghq8m --container=azure-vote-front -- /bin/bash
+   # 17  az account set --subscription e3b5d32e-2049-415e-8f2b-d3fa009319d4
+   # 18  az aks get-credentials --resource-group PMM-RG --name PMMkubernetesCluster
+   # 19  kubectl get pods
+   # 20  az aks get-credentials --resource-group PPMM-RG --name PMMkubernetesCluster
+   # 21  kubectl get ports
+   # 22  kubectl get containers
+   # 23  kubectl get pods
+   # 24  kubectl --namespace=azure-vote
+   # 25  kubectl --namespace==azure-vote
+   # 26  kubectl config set-context --current --namespace=azure-vote
+   # 27  kubectl get pods
+   # 28  kubectl describe pod azure-vote-front-7f656596b7-ghq8m
+   # 29  kubectl get pods
+   # 30  kubectl describe pod azure-vote-front-7f656596b7-ghq8m
+   # 31  kubectl exec -it azure-vote-front-7f656596b7-ghq8m --container=azure-vote-front -- /bin/bash
